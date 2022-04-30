@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Country Club Sponsors Database </title>
+    <title>Country Club Events Database </title>
 
     <!--
       This 3rd-party stylesheet makes available the font families to be used
@@ -29,7 +29,7 @@
         <img src="/benny.jpg" alt="Benny logo">
       </div> -->
 
-      <h1 class="site-title"><a href="#">Country Club Sponsors Database</a></h1>
+      <h1 class="site-title"><a href="#">Country Club Events Database</a></h1>
 
     </header>
 
@@ -53,32 +53,33 @@
         <h2>Filters</h2>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Sponsor ID</label>
+          <label for="filter-text" class="filter-input-label">Event ID</label>
           <div class="filter-input-element">
-            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="000005">
+            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="000002">
           </div>
         </div>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Sponsor Service ID</label>
+          <label for="filter-text" class="filter-input-label">Event Name</label>
           <div class="filter-input-element">
-            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="VIP">
+            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="Birthday">
           </div>
         </div>
 
-        <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Email</label>
-          <div class="filter-input-element">
-            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="Johnny">
-          </div>
-        </div>
+        <label for="completion_time">Start Date</label>
+        <input type="date" id="completion_time">
+
+        <label for="completion_time">End Date</label>
+        <input type="date" id="completion_time">
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Phone Number</label>
-          <div class="filter-input-element">
-            <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="Appleseed">
+            <label for="filter-text" class="filter-input-label">Public or Private</label>
+            <select id="education">
+                <option value="AD">Public</option>
+                <option value="BD">Private</option>
+            </select>
+            </div>
           </div>
-        </div>
 
         <button id="filter-update-button" class="action-button">Update</button>
 
@@ -86,18 +87,20 @@
      <div class="table-container">
       <table class="tb">
         <tr>
-          <th>Event ID</th>
+          <th>Event ID</th>     
+          <th>Event Name</th>
+          <th>Event Location</th>
           <th>Start Date</th>
-          <th>Sponsor Name</th>
-          <th>Sponsor Email</th>
-          <th>Sponsor Phone Number</th>
+          <th>End Date</th>
+          <th>Public or Private</th>
         </tr>
         <tr>
           <td>000001</td>
-          <td>0001</td>
-          <td>Barack Obama</td>
-          <td>barrack@gmail.com</td>
-          <td>(202) 456-1111</td>
+          <td>Barrack's Birthday Party</td>
+          <td>Sunset Club</td>
+          <td>12/25/2016</td>
+          <td>12/27/2016</td>
+          <td>Public</td>
           
         </tr>
 

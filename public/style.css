@@ -83,43 +83,6 @@ border: 1px solid #ababab;
 width: 100%;
 }
 
-.post {
-display: inline-block;
-vertical-align: top;
-margin: 10px;
-padding: 10px;
-border: 1px solid #dadada;
-border-radius: 3px;
-}
-
-.post-contents {
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 100%;
-width: 100%;
-}
-
-.post-image-container img {
-max-height: 240px;
-max-width: 300px;
-}
-
-.post-info-container {
-width: 100%;
-margin-top: 20px;
-}
-
-.post-price {
-display: inline-block;
-font-size: 80%;
-padding: 3px;
-margin: 3px 5px;
-border: 1px solid #ababab;
-border-radius: 3px;
-background: #efefef;
-}
-
 .tb { 
 border-collapse: collapse; width:300px; 
 }
@@ -132,8 +95,10 @@ background-color: lightblue;
 }
 
 .table-container {
-display: flex;
-justify-content: center;
+    display: inline-flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
 }
 
 ul.horizontal {
