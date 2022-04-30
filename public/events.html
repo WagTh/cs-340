@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Country Club Database </title>
+    <title>Country Club Sponsors Database </title>
 
     <!--
       This 3rd-party stylesheet makes available the font families to be used
@@ -29,7 +29,7 @@
         <img src="/benny.jpg" alt="Benny logo">
       </div> -->
 
-      <h1 class="site-title"><a href="#">Country Club Database</a></h1>
+      <h1 class="site-title"><a href="#">Country Club Sponsors Database</a></h1>
 
     </header>
 
@@ -53,37 +53,32 @@
         <h2>Filters</h2>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Member ID</label>
+          <label for="filter-text" class="filter-input-label">Sponsor ID</label>
           <div class="filter-input-element">
             <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="000005">
           </div>
         </div>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Title</label>
+          <label for="filter-text" class="filter-input-label">Sponsor Service ID</label>
           <div class="filter-input-element">
             <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="VIP">
           </div>
         </div>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">First Name</label>
+          <label for="filter-text" class="filter-input-label">Email</label>
           <div class="filter-input-element">
             <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="Johnny">
           </div>
         </div>
 
         <div class="filter-input-container">
-          <label for="filter-text" class="filter-input-label">Last Name</label>
+          <label for="filter-text" class="filter-input-label">Phone Number</label>
           <div class="filter-input-element">
             <input type="text" name="filter-text" id="filter-text" class="filter-input" placeholder="Appleseed">
           </div>
         </div>
-
-        <label for="completion_time">Birthday</label>
-        <input type="date" id="completion_time">
-
-
 
         <button id="filter-update-button" class="action-button">Update</button>
 
@@ -91,29 +86,19 @@
      <div class="table-container">
       <table class="tb">
         <tr>
-          <th>Member ID</th>
-          <th>Title</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Birthday</th>
-          <th>Location</th>
+          <th>Event ID</th>
+          <th>Start Date</th>
+          <th>Sponsor Name</th>
+          <th>Sponsor Email</th>
+          <th>Sponsor Phone Number</th>
         </tr>
         <tr>
           <td>000001</td>
-          <td>General Member</td>
-          <td>Tom</td>
-          <td>Wagner</td>
-          <td>1/01/2001</td>
-          <td>97330</td>
+          <td>0001</td>
+          <td>Barack Obama</td>
+          <td>barrack@gmail.com</td>
+          <td>(202) 456-1111</td>
           
-        </tr>
-        <tr>
-          <td>000002</td>
-          <td>General Member</td>
-          <td>Ivan</td>
-          <td>Chan</td>
-          <td>1/02/2002</td>
-          <td>97330</td>
         </tr>
 
       </table>
