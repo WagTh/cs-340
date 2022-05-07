@@ -139,6 +139,30 @@ ul.horizontal li a.active {
     background-color:#04AA6D;
 }
 
+.table-select {
+  display: inline-block;
+  vertical-align: top;
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+}
+
+.table-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.table-image-container img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
 /*
 * 404 page stuff
 */
